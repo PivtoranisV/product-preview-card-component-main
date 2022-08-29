@@ -103,6 +103,10 @@
       font-size: 20px;
   }
 
+  button:hover {
+      background-color: hsl(158, 98%, 49%);
+  }
+
   .button__text {
       margin-left: 10px;
   }
