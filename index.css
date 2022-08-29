@@ -125,9 +125,17 @@
       .main {
           display: flex;
           flex-direction: row;
-          margin: auto;
+          /* margin: auto; */
           max-width: 750px;
-          padding-top: 25%;
+          /* padding-top: 25%; */
+      }
+
+      body {
+          min-height: 100vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
       }
 
       img {
