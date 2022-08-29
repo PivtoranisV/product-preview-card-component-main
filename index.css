@@ -85,7 +85,14 @@
       justify-content: center;
   }
 
+  .cart img {
+      size: 5px;
+  }
+
   button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 20px;
       width: 100%;
       background-color: hsl(158, 36%, 37%);
@@ -94,6 +101,10 @@
       color: hsl(0, 0%, 100%);
       font-family: 'Montserrat', sans-serif;
       font-size: 20px;
+  }
+
+  .button__text {
+      margin-left: 10px;
   }
 
   .attribution {
