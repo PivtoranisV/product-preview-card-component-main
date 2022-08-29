@@ -120,3 +120,24 @@
   .attribution a {
       color: hsl(228, 45%, 44%);
   }
+
+  @media screen and (min-width: 650px) {
+      .main {
+          display: flex;
+          flex-direction: row;
+          margin-top: 25%;
+      }
+
+      img {
+          display: block;
+          margin: auto;
+          height: 100%;
+          border-bottom-left-radius: 15px;
+          border-top-right-radius: 0;
+      }
+
+      .content {
+          border-top-right-radius: 15px;
+          border-bottom-left-radius: 0;
+      }
+  }
