@@ -125,7 +125,9 @@
       .main {
           display: flex;
           flex-direction: row;
-          margin-top: 25%;
+          margin: auto;
+          max-width: 750px;
+          padding-top: 25%;
       }
 
       img {
