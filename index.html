@@ -12,7 +12,11 @@
 <body>
   <section class="main">
     <div class="image">
-      <img src="./images/image-product-mobile.jpg" alt="Perfume CHANEL">
+      <picture>
+        <source media="(min-width:650px)" srcset="./images/image-product-desktop.jpg">
+        <source media="(min-width:375px)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-mobile.jpg" alt="Perfume CHANEL">
+      </picture>
     </div>
     <div class="content">
       <div class="category">

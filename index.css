@@ -17,6 +17,7 @@
       display: block;
       margin: auto;
       width: 100%;
+
       border-top-left-radius: 15px;
       border-top-right-radius: 15px;
   }
@@ -41,7 +42,7 @@
   .price {
       display: flex;
       justify-content: space-between;
-      width: 40%;
+      width: 45%;
       margin: 10px;
   }
 
